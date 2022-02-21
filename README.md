@@ -3,8 +3,8 @@
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![](https://jitpack.io/v/Ilhom0549/EditTextInputValidator.svg)](https://jitpack.io/#Ilhom0549/EditTextInputValidator)
 
-* Android Studio Old Versions
-* Add it in your root build.gradle at the end of repositories:
+
+* (Android Studio Old Versions) Add it in your root build.gradle at the end of repositories:
 ```gradle
 allprojects {
     repositories {
