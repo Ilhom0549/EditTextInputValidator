@@ -1,6 +1,6 @@
 # EditTextInputValidator
 
-# Min Api [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) Max api  [![API](https://img.shields.io/badge/API-32%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=32)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 ## Screenshots
 
