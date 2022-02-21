@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:orientation="vertical">
+
+        <uz.ilkhomkhuja.validatorlibrary.EditTextValidator
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:format="text" />
+
+        <uz.ilkhomkhuja.validatorlibrary.CheckedPasswordValidator
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordEnabled="true" />
+
+        <uz.ilkhomkhuja.validatorlibrary.CheckedPasswordValidator
+            android:id="@+id/second_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordEnabled="false" />
+
+        <uz.ilkhomkhuja.validatorlibrary.EditTextValidator
+            android:id="@+id/email_address_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="email_address" />
+
+        <uz.ilkhomkhuja.validatorlibrary.SpinnerValidator
+            android:id="@+id/country_spinner_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="&lt; Please select one &gt;"
+            android:layout_marginTop="20dp" />
+
+        <uz.ilkhomkhuja.validatorlibrary.EditTextValidator
+            android:id="@+id/ip_address_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:format="ip_address" />
+
+        <uz.ilkhomkhuja.validatorlibrary.EditTextValidator
+            android:id="@+id/phone_number_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="phone_number" />
+
+        <uz.ilkhomkhuja.validatorlibrary.EditTextValidator
+            android:id="@+id/description_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="zip_code" />
+
+        <uz.ilkhomkhuja.validatorlibrary.EditTextValidator
+            android:id="@+id/year_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="year" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/clear_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clear" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/submit_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="submit" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</ScrollView>
