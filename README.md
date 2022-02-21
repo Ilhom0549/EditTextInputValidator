@@ -7,7 +7,7 @@
 For Gradle it's easy - just add below to your module's build.gradle 
 ```gradle
 dependencies {
-    implementation 'uz.ilkhomxoja:EditTextValidaton:1.0.0'
+    implementation 'com.github.Ilhom0549:EditTextValidation:1.0.0'
 }
 ```
 
@@ -20,13 +20,6 @@ allprojects {
         ...
         maven { url 'https://jitpack.io' }
     }
-}
-```
-
-* Add the dependency
-```gradle
-dependencies {
-    implementation 'com.github.Ilhom0549:EditTextValidation:1.0.0'
 }
 ```
 
