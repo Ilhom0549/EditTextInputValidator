@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Edit Text Input Validator"
 include ':app'
 include ':ValidatorLibrary'
+include ':Library'
