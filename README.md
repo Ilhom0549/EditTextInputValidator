@@ -4,7 +4,7 @@
 [![](https://jitpack.io/v/Ilhom0549/EditTextInputValidator.svg)](https://jitpack.io/#Ilhom0549/EditTextInputValidator)
 
 
-* Android Studio News Versions
+* Android Studio New Versions -> (Android Studio Bumblebee and Artic Fox Versions)
 *  Add it in your root settings.gradle at the end of repositories:
 ```gradle
 dependencyResolutionManagement {
