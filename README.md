@@ -5,21 +5,23 @@
 ## Import as dependency
 
 For Gradle it's easy - just add below to your module's build.gradle 
-gradle
+```gradle
 dependencies {
     implementation 'uz.ilkhomxoja:EditTextValidaton:1.0.0'
 }
+```
 
 
 
 * Add it in your root build.gradle at the end of repositories:
-~~gradle
+```gradle
 allprojects {
     repositories {
         ...
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
 * Add the dependency
 ```gradle
