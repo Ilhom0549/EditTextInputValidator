@@ -4,7 +4,21 @@
 [![](https://jitpack.io/v/Ilhom0549/EditTextInputValidator.svg)](https://jitpack.io/#Ilhom0549/EditTextInputValidator)
 
 
-* (Android Studio Old Versions) Add it in your root build.gradle at the end of repositories:
+* Android Studio News Versions
+*  Add it in your root settings.gradle at the end of repositories:
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+* Android Studio Old Versions 
+*  Add it in your root build.gradle at the end of repositories:
 ```gradle
 allprojects {
     repositories {
